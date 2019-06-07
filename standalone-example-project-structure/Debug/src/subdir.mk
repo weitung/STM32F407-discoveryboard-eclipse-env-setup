@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/main.c \
-../src/printf.c 
+../src/printf.c \
+../src/util.c 
 
 OBJS += \
 ./src/main.o \
-./src/printf.o 
+./src/printf.o \
+./src/util.o 
 
 C_DEPS += \
 ./src/main.d \
-./src/printf.d 
+./src/printf.d \
+./src/util.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

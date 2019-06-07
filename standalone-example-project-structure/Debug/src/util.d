@@ -1,5 +1,4 @@
-src/main.o: ../src/main.c \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/declaration.h \
+src/util.o: ../src/util.c \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/lib/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/lib/CMSIS/Include/core_cm4.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/lib/CMSIS/Include/core_cmInstr.h \
@@ -33,24 +32,18 @@ src/main.o: ../src/main.c \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/lib/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dac.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/lib/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dcmi.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/lib/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_fsmc.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/stm32f4xx_conf.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_delay.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/defines.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/attributes.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_gps.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_usart.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/misc.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_gpio.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_i2c.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_spi.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_nrf24l01.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_spi.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/defines.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/exec_func.h \
- /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/exec_vars.h \
+ /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_spi.h \
+ /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_exti.h \
+ /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/misc.h \
+ /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_i2c.h \
+ /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_gpio.h \
+ /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_usart.h \
  /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/main.h
-
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/declaration.h:
 
 /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/lib/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:
 
@@ -118,34 +111,26 @@ src/main.o: ../src/main.c \
 
 /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/lib/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_fsmc.h:
 
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/stm32f4xx_conf.h:
-
 /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_delay.h:
 
 /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/defines.h:
 
 /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/attributes.h:
 
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_gps.h:
-
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_usart.h:
-
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/misc.h:
-
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_gpio.h:
-
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_i2c.h:
-
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_spi.h:
-
 /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_nrf24l01.h:
 
 /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_spi.h:
 
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/defines.h:
+/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_spi.h:
 
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/exec_func.h:
+/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_exti.h:
 
-/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/exec_vars.h:
+/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/misc.h:
+
+/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_i2c.h:
+
+/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_gpio.h:
+
+/Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/TM_inc/tm_stm32f4_usart.h:
 
 /Users/weitung/eclipse-workspace/EclipseWorkSpace/standalone-test/inc/main.h:
